@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sgallagher/Dropbox (vINF Consulting)/P-Drive/Project vinf/code/CA-application-dev/webapp/1-WebApp-OIDC/1-1-MyOrg/1-1-MyOrg.csproj": {}
+  },
+  "projects": {
+    "/Users/sgallagher/Dropbox (vINF Consulting)/P-Drive/Project vinf/code/CA-application-dev/webapp/1-WebApp-OIDC/1-1-MyOrg/1-1-MyOrg.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sgallagher/Dropbox (vINF Consulting)/P-Drive/Project vinf/code/CA-application-dev/webapp/1-WebApp-OIDC/1-1-MyOrg/1-1-MyOrg.csproj",
+        "projectName": "1-1-MyOrg",
+        "projectPath": "/Users/sgallagher/Dropbox (vINF Consulting)/P-Drive/Project vinf/code/CA-application-dev/webapp/1-WebApp-OIDC/1-1-MyOrg/1-1-MyOrg.csproj",
+        "packagesPath": "/Users/sgallagher/.nuget/packages/",
+        "outputPath": "/Users/sgallagher/Dropbox (vINF Consulting)/P-Drive/Project vinf/code/CA-application-dev/webapp/1-WebApp-OIDC/1-1-MyOrg/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sgallagher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.AzureAD.UI": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
